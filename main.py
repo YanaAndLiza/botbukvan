@@ -165,5 +165,4 @@ def sus(message):
         bot.send_media_group(message.chat.id, [telebot.types.InputMediaPhoto(Ni)])
 
 
-bot.polling(non_stop=True)
-
+bot.polling(non_stop=True, interval=0)
